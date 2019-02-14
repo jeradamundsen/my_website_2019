@@ -1,0 +1,40 @@
+
+.main-display{
+  position: relative;
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url('./images/adventure-alpine-alps-416779.jpg');
+  min-height: 100%;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 20px;
+}
+.main-display h1{
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+
+    transform: translate(-50%,-50%) !important;
+    font-family: 'Jura', sans-serif !important;
+    color: #f8f8ff !important;
+    font-size: 40px !important;
+    font-weight: bold !important;
+
+}
+.nav-bar{
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.pointing-menu img{
+  padding-right: 10px;
+}
+.nav-container{
+
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
