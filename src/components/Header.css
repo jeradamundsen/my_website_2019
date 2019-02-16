@@ -1,4 +1,4 @@
-.nav-bar{
+/* .nav-bar{
   font-weight: bold !important;
   color: black !important;
 }
@@ -6,3 +6,10 @@
 .pointing-menu img{
   padding-right: 10px;
 }
+
+.nav-container{
+
+  position: absolute;
+  margin: 20px;
+  width: auto;
+} */

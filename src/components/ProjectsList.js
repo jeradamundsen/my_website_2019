@@ -25,11 +25,9 @@ render(){
   return(
 
       <div className="ui segment">
-        <a name="projects"></a>
-        <h2 className="ui header">
+        <h1 className="ui header">
           Projects
-          <div className=" sub_header sub header">Technologies Used: ReactJS | Angular | Nodejs | HTML5 | CSS | MongoDB | SASS | LESS | Botkit</div>
-        </h2>
+        </h1>
         <div className=" image-list">
           <a href="https://spaceshipapp.herokuapp.com/#/about">
             <img className="thumbnail" src={image1} alt=""/>
@@ -44,7 +42,9 @@ render(){
            <img className="thumbnail" src={image4} alt=""/>
            <img className="thumbnail" src={image5} alt=""/>
            <img className="thumbnail" src={image6} alt=""/>
+           <img className="thumbnail" src={image7} alt=""/>
         </div>
+        <div className=" sub_header">Technologies Used: ReactJS | Angular | Nodejs | HTML5 | CSS | MongoDB | SASS | LESS | Botkit</div>
       </div>
 
 

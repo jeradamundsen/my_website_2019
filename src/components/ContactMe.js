@@ -5,10 +5,10 @@ const ContactMe =()=>{
   return(
 
       <div className="contact_segment ui segment">
-        <a name="contactme"></a>
+
         <div className="ui grid">
           <div className="ten wide column">
-            <h3>About Me</h3>
+            <h3>About</h3>
           </div>
           <div className="six wide column">
             <div className="ui list">

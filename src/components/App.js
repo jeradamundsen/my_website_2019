@@ -1,36 +1,38 @@
-import './app.css'
-import React, { Component } from 'react';
-import MainDisplay from './MainDisplay'
-import ProjectsList from './ProjectsList'
-import Footer from './Footer'
-import ContactMe from './ContactMe'
+import "./app.css";
+import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import MainDisplay from "./MainDisplay";
+import ProjectsList from "./ProjectsList";
+import Footer from "./Footer";
+import ContactMe from "./ContactMe";
+import Header from "./Header"
+import Resume from "./Resume"
 
- class App extends Component {
-
+class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-
-    };
+    this.state = {};
   }
 
   render() {
     return (
-      <div>
-      <div className="main_container ui container ">
-          <MainDisplay/>
-          <ProjectsList/>
-          <ContactMe/>
-      </div>
-        <div className="ui inverted vertical footer segment">
-          <Footer/>
-        </div>
+      <div className="ui container">
+
+        <BrowserRouter>
+
+          <div className="main_container ui container ">
+            <Header/>
+            <Route path="/" exact component={MainDisplay} />
+            <Route path="/projects" component={ProjectsList} />
+            <Route path="/contactme" component={ContactMe} />
+            <Route path="/resume" component={Resume} />
+            <Footer />
+          </div>
+        </BrowserRouter>
 
       </div>
     );
   }
-
-
 }
-export default App
+export default App;
