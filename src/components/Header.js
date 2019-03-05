@@ -17,7 +17,7 @@ import {Link} from 'react-router-dom';
   render() {
     return (
 
-        <div className=" ui inverted pointing menu">
+        <div className="navbar ui inverted pointing menu">
 
             <div className="left menu">
               <Link to="/" className="active item">
@@ -35,10 +35,7 @@ import {Link} from 'react-router-dom';
                 Resume
               </Link>
             </div>
-
-
-
-    </div>
+      </div>
 
 
 

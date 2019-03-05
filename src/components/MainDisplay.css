@@ -1,14 +1,19 @@
 
 .main-display{
   position: relative;
-
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ), url('./images/adventure-alpine-alps-416779.jpg');
   min-height: 100%;
+  background-size: 100%;
   background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   height: 100vh;
   margin-bottom: 20px;
 }

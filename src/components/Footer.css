@@ -1,7 +1,37 @@
 .footer-segment{
+  color: #efebd8 !important;;
   padding: 20px 0 20px 0 !important;
+  font-family: 'Jura', sans-serif !important;
+}
+.i_tem{
+  color: #efebd8 !important;
+}
+.technologies_used{
+
+  color: #efebd8 !important;
+}
+.link{
+  color: #efebd8 !important;
 }
 .sub-header{
-  color: white !important;
+
+  color: #efebd8 !important;
   font-family: 'Jura', sans-serif !important;
+
+}
+.navigation_links {
+  color: #efebd8 !important;
+}
+.copyright{
+  color: #efebd8 !important;
+  position: relative !important;
+}
+
+.links_list{
+  color: #efebd8 !important;
+
+}
+.links_inner{
+  color: #efebd8 !important;
+
 }

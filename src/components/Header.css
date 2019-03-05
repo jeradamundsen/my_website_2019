@@ -1,4 +1,9 @@
-/* .nav-bar{
+.navbar{
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+  
+
+  }/* .nav-bar{
   font-weight: bold !important;
   color: black !important;
 }
