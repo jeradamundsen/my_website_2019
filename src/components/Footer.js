@@ -25,7 +25,7 @@ const Footer = () => {
 
           </div>
           <div className="technologies_used column">
-            <div className="sub-header ui sub header">
+            <div className="sub-header">
               Website built with: ReactJS, Semantic UI, React-Router-Dom, HTML,
               CSS
             </div>

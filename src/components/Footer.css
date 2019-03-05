@@ -1,28 +1,33 @@
 .footer-segment{
+  
   color: #efebd8 !important;;
   padding: 20px 0 20px 0 !important;
   font-family: 'Jura', sans-serif !important;
 }
 .i_tem{
   color: #efebd8 !important;
+  font-size: 1em;
 }
 .technologies_used{
-
+  font-size: 1em;
   color: #efebd8 !important;
 }
 .link{
+  font-size: 1em;
   color: #efebd8 !important;
 }
 .sub-header{
-
+ font-size: 1em;
   color: #efebd8 !important;
   font-family: 'Jura', sans-serif !important;
 
 }
 .navigation_links {
+  font-size: 1em;
   color: #efebd8 !important;
 }
 .copyright{
+  font-size: 1em;
   color: #efebd8 !important;
   position: relative !important;
 }
@@ -32,6 +37,7 @@
 
 }
 .links_inner{
+  font-size: 1em;
   color: #efebd8 !important;
 
 }
