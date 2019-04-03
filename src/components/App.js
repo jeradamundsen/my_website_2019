@@ -25,6 +25,7 @@ class App extends Component {
             <Header/>
             <Route path="/" exact component={MainDisplay} />
             <Route path="/projects" component={ProjectsList} />
+            <Route path="/projects/detail" component={ProjectDetail} />
             <Route path="/contactme" component={ContactMe} />
             <Route path="/resume" component={Resume} />
             <Footer />

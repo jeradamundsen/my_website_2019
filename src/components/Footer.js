@@ -63,8 +63,8 @@ const Footer = () => {
               <div className="item">
                 <i className="github icon" />
                 <div className="content">
-                  <a className="link" href="https://github.com/theSoviet1984">
-                    github.com/theSoviet1984
+                  <a className="link" href="https://github.com/jeradamundsen">
+                    github.com/jeradamundsen
                   </a>
                 </div>
               </div>
