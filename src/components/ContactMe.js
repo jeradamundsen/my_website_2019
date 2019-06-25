@@ -35,7 +35,7 @@ const ContactMe =()=>{
           <div className="item">
             <i className="github icon"></i>
             <div className="content">
-              <a href="https://github.com/theSoviet1984">github.com/theSoviet1984</a>
+              <a href="https://github.com/jeradamundsen">github.com/jeradamundsen</a>
             </div>
           </div>
         </div>
